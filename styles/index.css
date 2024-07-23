@@ -37,3 +37,9 @@
 /*<i class="fa-regular fa-envelope"></i>*/
 /*<i class="fa-brands fa-whatsapp"></i>*/
 /*<i class="fa-brands fa-facebook-f"></i>*/
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+}
