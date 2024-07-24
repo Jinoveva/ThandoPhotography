@@ -1,0 +1,142 @@
+/* 
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+*/
+
+/*
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+*/
+
+/*
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+*/
+
+/*
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+*/
+
+/*
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+*/
+
+/*<i class="fa-brands fa-instagram"></i>/*
+/*<i class="fa-regular fa-envelope"></i>*/
+/*<i class="fa-brands fa-whatsapp"></i>*/
+/*<i class="fa-brands fa-facebook-f"></i>*/
+
+.nothando-about{
+    max-width: 100%;
+    height: auto;
+}
+.about{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #F65282;
+    font-size: 14px;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+}
+
+.about-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    color: #ffffff;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+}
+
+.about-paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0 10px 8px;
+    padding: 20px;
+
+}
+
+.social-icons{
+    color: #ffffff;
+    margin: 10px 0 10px 30px;
+}
+
+.social-icons a{
+    margin: 0 10px;
+}
+
+.camera{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: bold;
+color: #F65282;
+font-size: 14px;
+margin: 30px 0  0 20px;
+padding: 10px;
+}
+
+.camera-model{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin: 0 0 50px 30px;
+    padding: 14px 24px;
+    color: #ffffff;
+    background: #2D2727;
+    width: 40%;
+}
+
+.contact-button{
+    margin: 50px 0 30px 20px;
+    padding: 10px;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 14px 28px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
