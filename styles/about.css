@@ -54,89 +54,129 @@
 /*<i class="fa-brands fa-whatsapp"></i>*/
 /*<i class="fa-brands fa-facebook-f"></i>*/
 
-.nothando-about{
+.nothando-about {
     max-width: 100%;
     height: auto;
 }
-.about{
+
+.about {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: bold;
     color: #F65282;
     font-size: 14px;
-    margin: 10px 0 10px 10px;
+    margin: 10px 0;
     padding: 10px;
 }
 
-.about-name{
+.about-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 52px;
     color: #ffffff;
-    margin: 10px 0 10px 10px;
+    margin: 10px 0;
     padding: 10px;
 }
 
-.about-paragraph{
+.about-paragraph {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-style: normal;
     font-size: 16px;
     color: #ffffff;
-    margin: 10px 0 10px 8px;
+    margin: 10px 0;
     padding: 20px;
-
 }
 
-.social-icons{
+.social-icons {
     color: #ffffff;
-    margin: 10px 0 10px 30px;
+    margin: 10px 0;
 }
 
-.social-icons a{
+.social-icons a {
     margin: 0 10px;
 }
 
-.camera{
-font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-style: bold;
-color: #F65282;
-font-size: 14px;
-margin: 30px 0  0 20px;
-padding: 10px;
-}
-
-.camera-model{
+.camera {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: bold;
-    margin: 0 0 50px 30px;
-    padding: 14px 24px;
-    color: #ffffff;
-    background: #2D2727;
-    width: 40%;
-}
-
-.contact-button{
-    margin: 50px 0 30px 20px;
+    color: #F65282;
+    font-size: 14px;
+    margin: 30px 0;
     padding: 10px;
 }
 
-button{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+.camera-model {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    background: #2D2727;
+    color: #ffffff;
+    padding: 14px 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-button {
+    margin: 50px 0;
+    padding: 10px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     border: none;
     background: #ffffff;
     border-radius: 16px;
     padding: 14px 28px;
 }
 
-a{
+a {
     color: #ffffff;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .about-name {
+        font-size: 36px;
+    }
+
+    .about-paragraph {
+        font-size: 14px;
+    }
+
+    .camera-model {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+        font-size: 12px;
+    }
+
+    .about-name {
+        font-size: 28px;
+    }
+
+    .about-paragraph {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+
+    .contact-button button {
+        padding: 10px 20px;
+    }
 }
 
