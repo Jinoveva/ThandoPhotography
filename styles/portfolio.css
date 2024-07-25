@@ -78,6 +78,7 @@ img{
    }
 
    img {
+        border: 2px solid white;
        transition: transform 0.3s ease;
    }
 
