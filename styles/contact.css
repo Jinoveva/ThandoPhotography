@@ -33,7 +33,73 @@
 }
 */
 
+/*
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+*/
+
 /*<i class="fa-brands fa-instagram"></i>/*
 /*<i class="fa-regular fa-envelope"></i>*/
 /*<i class="fa-brands fa-whatsapp"></i>*/
 /*<i class="fa-brands fa-facebook-f"></i>*/
+
+body{
+    background: #1b1b1b;
+}
+
+.container{
+    padding: 50px;
+    margin: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 50px 40px 20px 0;
+
+}
+
+label{
+    color: #fff;
+    font-weight: 700;
+}
+
+button.custom-btn {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: #ffffff;
+    color: #272142;
+    border-radius: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.custom-btn:hover {
+    background-color: #272142;
+    color: #ffffff;
+}
