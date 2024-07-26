@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,44 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/65ccb6bd69.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="nothando-contact.JPG" alt="A picture of Nothando" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <h1>GET IN TOUCH!</h1>
+                <p>FOR ENQUIRIES OR TO MAKE A BOOKING, PLEASE FILL IN THE FORM BELOW.</p>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="col">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn custom-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
