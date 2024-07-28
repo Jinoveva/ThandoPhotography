@@ -134,10 +134,9 @@ body {
     border-radius: 3px;
 }
 
-a{
+a {
     color: #fff;
 }
-
 
 @media (max-width: 768px) {
     .hero-text h1 {
@@ -181,14 +180,13 @@ a{
     }
 }
 
-
-footer{
+footer {
     background-color: #1b1b1b;
     position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 10px 20px;
     color: white;
@@ -196,21 +194,37 @@ footer{
     z-index: 1000;
 }
 
-.social-icons,
-.copyright,
 .footer-logo {
-    color: white;
-}
-
-.footer-logo{
     font-family: var(--primary-font);
     font-size: 22px;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: 10px;
 }
 
-.social-icons,
-.copyright{
+.social-icons {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
     font-size: 16px;
     font-family: var(--primary-font);
     font-weight: 400;
