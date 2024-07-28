@@ -52,10 +52,11 @@
     color: white;
 }
 
-body{
+body {
     background: #1b1b1b;
     margin-bottom: 60px;
     color: #fff;
+    padding-top: 70px;
 }
 
 h1{
