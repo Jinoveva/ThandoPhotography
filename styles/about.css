@@ -68,6 +68,10 @@
     color: white;
 }
 
+body{
+    padding-top: 90px;
+}
+
 .nothando-about {
     max-width: 100%;
     height: auto;
