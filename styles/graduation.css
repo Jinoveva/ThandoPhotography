@@ -110,6 +110,10 @@ footer {
     font-style: normal;
 }
 
+a {
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 40px 20px;

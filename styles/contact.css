@@ -157,6 +157,10 @@ footer {
     font-style: normal;
 }
 
+a {
+    color: #fff;
+}
+
 
 @media (min-width: 992px) {
     .container {

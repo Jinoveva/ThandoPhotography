@@ -134,6 +134,10 @@ body {
     border-radius: 3px;
 }
 
+a{
+    color: #fff;
+}
+
 
 @media (max-width: 768px) {
     .hero-text h1 {

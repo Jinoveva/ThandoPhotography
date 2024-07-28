@@ -109,6 +109,10 @@ copyright {
     font-style: normal;
 }
 
+a {
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 20px;
