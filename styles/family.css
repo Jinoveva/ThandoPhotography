@@ -74,3 +74,38 @@ img{
     .container{
         padding: 80px 50px;
     }
+
+        footer {
+            background-color: #1b1b1b;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            color: white;
+            font-family: var(--primary-font);
+            z-index: 1000;
+        }
+    
+        .social-icons,
+        .copyright,
+        .footer-logo {
+            color: white;
+        }
+    
+        .footer-logo {
+            font-family: var(--primary-font);
+            font-size: 22px;
+            font-weight: 700;
+            font-style: normal;
+        }
+    
+        .social-icons,
+        .copyright {
+            font-size: 16px;
+            font-family: var(--primary-font);
+            font-weight: 400;
+            font-style: normal;
+        }
