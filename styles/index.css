@@ -134,15 +134,6 @@ body {
     border-radius: 3px;
 }
 
-.footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
 
 @media (max-width: 768px) {
     .hero-text h1 {
@@ -183,11 +174,6 @@ body {
 
     .footer-logo {
         font-size: 18px;
-    }
-
-    .social-icons,
-    .copyright {
-        font-size: 14px;
     }
 }
 
