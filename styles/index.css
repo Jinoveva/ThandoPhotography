@@ -61,6 +61,7 @@ body {
     background: #1b1b1b;
     margin-bottom: 60px;
     /* Space for fixed footer */
+    animation: slideIn 2s ease-out;
 }
 
 .hero {
@@ -136,6 +137,38 @@ body {
 
 a {
     color: #fff;
+}
+
+/* Slideshow */
+:root {
+    --gap: 30px;
+    --visible: 9;
+    --moves: 9;
+    --image-width: calc((100% - ((var(--visible) - 1) * var(--gap))) / var(--visible));
+    --step: calc(var(--image-width) + var(--gap));
+    --total-translation: calc(var(--moves) * var(--step));
+}
+
+.slideshow-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    gap: var(--gap);
+    width: calc(var(--step) * var(--moves) * 2);
+    /* Adjust width for looping */
+    animation: slide 30s linear infinite;
+    /* Won't stop looping*/
+    animation-delay: 2s;
+}
+
+.slides img {
+    width: var(--image-width);
+    flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
@@ -215,5 +248,25 @@ footer {
     font-style: normal;
 }
 
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
 
+    100% {
+        transform: translateX(calc(-1 * var(--total-translation)));
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
 
